@@ -1,0 +1,23 @@
+{
+	"extends": "wikimedia",
+	"env": {
+		"browser": true,
+		"jquery": true
+	},
+	"globals": {
+		"ve": true,
+		"VisualEditorSupportCheck": false,
+		"OO": false,
+		"unicodeJS": false,
+		"RangeFix": false,
+		"Papa": false,
+		"mw": false,
+		"require": false
+	},
+	"rules": {
+		"dot-notation": [ "error", { "allowKeywords": true } ],
+		"max-statements-per-line": [ "error", { "max": 1 } ],
+		"max-len": 0,
+		"valid-jsdoc": 0
+	}
+}
